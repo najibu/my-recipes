@@ -1,6 +1,6 @@
 == README
 TDD
-testing specs for recipes
+testing specs for recipes:
 name :string must be precent
 summary :text
 description :text
@@ -11,6 +11,20 @@ description :text
 - summary must be between 10 characters and less than 150 characters
 - description must be present
 - description must be between 20 characters and less than 500 characters
+- chef_id must be present
+
+
+testing specs for chefs:
+chefname: string
+email: string
+
+chefname must be present
+chefname must be between 3 characters and less than 40 characters
+email must be present
+email must be unique(since we'll use it for logins later)
+email must be valid
+
+
 
 
 
