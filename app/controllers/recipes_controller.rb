@@ -11,6 +11,7 @@ class RecipesController < ApplicationController
 	end
 
 	def show
+		@review = Review.new
 	end
 
 	def new
@@ -32,6 +33,7 @@ class RecipesController < ApplicationController
 	end
 
 	def edit
+		
 	end
 
 	def update

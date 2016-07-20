@@ -1,5 +1,6 @@
 class Recipe < ActiveRecord::Base
 belongs_to :chef
+has_many :reviews
 has_many :likes, dependent: :destroy
 has_many :recipe_ingredients, dependent: :destroy
 has_many :ingredients, through: :recipe_ingredients
