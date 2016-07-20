@@ -4,7 +4,7 @@
 
 <h3>Get in the Kitchen and make something good with <a href="https://myrecipesrails4.herokuapp.com/">‘Myrecipe’</a></h3>
 
-Life’s busy. Who can remember want to cook for dinner. Myrecipe has many simple easy to make recipes. You can browse recipes, create an account and add your favorite recipe, you can like/dislike recipes, and leave a review. <a href="https://myrecipes-ruby.herokuapp.com/register">Go sign up!</a>
+Life’s busy. Who can remember want to cook for dinner. Myrecipe has many simple easy to make recipes. You can browse recipes, create an account and add your favorite recipe, you can like/dislike recipes, and leave a review. <a href="https://myrecipesrails4.herokuapp.com/register">Go sign up!</a>
 
 <h3>Software used in Myrecipe</h3>
 
@@ -80,7 +80,7 @@ In order to run the test suite, in development you'll need to rake the migration
   <li>run <code>git add -A</code> then run <code>git commit -m "changes"</code></li>
   <li>run <code>git push heroku master</code> </li>
   <li>run <code>heroku run rake db:migrate</code></li>
-  <li>See it live <a href="https://myrecipes-ruby.herokuapp.com/">Myrecipe</a> on Heroku!</li>
+  <li>See it live <a href="https://myrecipesrails4.herokuapp.com/">Myrecipe</a> on Heroku!</li>
   
 </ol>
 
